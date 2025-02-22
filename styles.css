@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #8e44ad, #3498db);
+    color: #fff;
+  }
+  
+  /* Quote Container */
+  .quote-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fdfdfd;
+  }
+  
+  /* Quote Box */
+  .quote-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #ffebcd;
+  }
+  
+  /* Author */
+  #author {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #e3e3e3;
+    font-style: italic;
+  }
+  
+  /* Button */
+  button {
+    background: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: #d35400;
+    transform: translateY(-2px);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
